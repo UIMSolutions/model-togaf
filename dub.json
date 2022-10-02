@@ -1,0 +1,45 @@
+{
+	"authors": ["Ozan Nurettin Süel (Sicherheitsschmiede)"],
+	"copyright": "Copyright © 2017 - 2022, UI Manufaktur UG",
+	"description": "Model for CMS applications",
+	"license": "Apache-2.0",
+	"name": "model-portals",
+	"dependencies": {
+		"colored": "~>0.0.23",
+		"unit-threaded": "1.0.15",
+		"vibe-d": "~>0.9.5-beta.1"
+	},
+	"sourcePaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-entities",
+		"../../LIBS/uim-entitybase",
+
+		"../../LIBS/model-applications",
+
+    "./"
+	],
+	"importPaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-entities",
+		"../../LIBS/uim-entitybase",
+
+    "../../LIBS/model-applications",
+
+    "./"
+	],
+	"configurations": [
+		{
+			"name": "default"
+		},
+		{
+			"name": "test",
+			"versions": ["test_model_portals"]
+		}
+	]
+}
