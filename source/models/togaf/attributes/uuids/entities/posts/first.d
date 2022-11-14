@@ -16,7 +16,7 @@ class DFirstPostIdAttribute : DPostIdAttribute {
 }
 mixin(AttributeCalls!("FirstPostIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DFirstPostIdAttribute);
     testAttribute(FirstPostIdAttribute);

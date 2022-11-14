@@ -39,7 +39,7 @@
 		},
 		{
 			"name": "test",
-			"versions": ["test_model_portals"]
+			"versions": ["test_domain_togaf"]
 		}
 	]
 }
