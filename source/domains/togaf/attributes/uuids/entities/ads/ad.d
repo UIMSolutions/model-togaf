@@ -16,7 +16,7 @@ class DAdIdAttribute : DEntityIdAttribute {
 }
 mixin(AttributeCalls!("AdIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DAdIdAttribute);
     testAttribute(AdIdAttribute);

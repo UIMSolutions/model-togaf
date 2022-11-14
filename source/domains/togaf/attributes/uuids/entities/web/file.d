@@ -16,7 +16,7 @@ class DWebFileIdAttribute : DEntityIdAttribute {
 }
 mixin(AttributeCalls!("WebFileIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DWebFileIdAttribute);
     testAttribute(WebFileIdAttribute);

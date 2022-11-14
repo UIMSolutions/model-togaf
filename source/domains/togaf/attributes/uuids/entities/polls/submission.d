@@ -16,7 +16,7 @@ class DPollSubmissionIdAttribute : DEntityIdAttribute {
 }
 mixin(AttributeCalls!("PollSubmissionIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DPollSubmissionIdAttribute);
     testAttribute(PollSubmissionIdAttribute);

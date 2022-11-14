@@ -16,7 +16,7 @@ class DWebSiteLanguageIdAttribute : DEntityIdAttribute {
 }
 mixin(AttributeCalls!("WebSiteLanguageIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DWebSiteLanguageIdAttribute);
     testAttribute(WebSiteLanguageIdAttribute);
