@@ -6,7 +6,7 @@ import models.togaf;
 class DWebTemplateIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("WebTemplateIdAttribute"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

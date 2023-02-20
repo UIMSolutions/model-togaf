@@ -7,7 +7,7 @@ import models.togaf;
 class DTogafGbbEntity : DOOPEntity {
   mixin(EntityThis!("TogafGbbEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
