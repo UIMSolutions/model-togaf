@@ -6,7 +6,7 @@ import models.togaf;
 class DFirstPostIdAttribute : DPostIdAttribute {
   mixin(AttributeThis!("FirstPostIdAttribute"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

@@ -6,7 +6,7 @@ import models.togaf;
 class DPollSubmissionIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("PollSubmissionIdAttribute"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
