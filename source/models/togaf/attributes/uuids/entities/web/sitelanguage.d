@@ -7,7 +7,7 @@ class DWebSiteLanguageIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("WebSiteLanguageIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("webSiteLanguageId")

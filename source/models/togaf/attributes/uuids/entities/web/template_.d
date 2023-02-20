@@ -7,7 +7,7 @@ class DWebTemplateIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("WebTemplateIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("webTemplateId")

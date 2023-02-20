@@ -8,7 +8,7 @@ class DTogafAbbEntity : DOOPEntity {
   mixin(EntityThis!("TogafAbbEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([ // individual values
