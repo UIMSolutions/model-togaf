@@ -7,7 +7,7 @@ class DAdIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("AdIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("adId")

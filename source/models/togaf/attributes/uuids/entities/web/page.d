@@ -7,7 +7,7 @@ class DWebPageIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("WebPageIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("webPageId")

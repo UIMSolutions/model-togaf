@@ -7,7 +7,7 @@ class DLastPostIdAttribute : DPostIdAttribute {
   mixin(AttributeThis!("LastPostIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("lastPostId")

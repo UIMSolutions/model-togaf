@@ -7,7 +7,7 @@ class DPollIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("PollIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("pollId")

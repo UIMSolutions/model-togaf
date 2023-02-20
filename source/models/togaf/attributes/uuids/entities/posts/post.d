@@ -7,7 +7,7 @@ class DPostIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("PostIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("postId")

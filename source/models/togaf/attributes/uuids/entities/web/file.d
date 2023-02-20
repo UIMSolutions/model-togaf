@@ -7,7 +7,7 @@ class DWebFileIdAttribute : DEntityIdAttribute {
   mixin(AttributeThis!("WebFileIdAttribute"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .name("webFileId")
