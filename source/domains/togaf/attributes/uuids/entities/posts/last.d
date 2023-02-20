@@ -16,7 +16,7 @@ class DLastPostIdAttribute : DPostIdAttribute {
 }
 mixin(AttributeCalls!("LastPostIdAttribute"));
 
-version(test_model_portals) {
+version(test_domain_togaf) {
   unittest {
     testAttribute(new DLastPostIdAttribute);
     testAttribute(LastPostIdAttribute);
