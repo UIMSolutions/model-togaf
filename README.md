@@ -1,3 +1,1 @@
-# model-portals
-
-Model for building portal applications
+# Model library 🗃 model-togaf
