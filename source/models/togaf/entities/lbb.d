@@ -4,7 +4,7 @@ module models.togaf.entities.lbb;
 import models.togaf;
 
 // 
-class DTogafLbbEntity : DOOPEntity {
+class DTogafLbbEntity : DEntity {
   mixin(EntityThis!("TogafLbbEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
